@@ -1,0 +1,22 @@
+{
+    "type": "object",
+    "properties": {
+        "fileName": {"type": "string"},
+        "isApplyToAllCourse": {"type": "boolean"},
+        "applyToCourses": {"type": "string"},
+        "isApplyToAllAdmitType": {"type": "string"},
+        "applyToAdmitTypes": {"type": "string"},
+        "isEnrolleeRequiredToUpload": {"type": "boolean"},
+        "isDocumentEnabled": {"type": "boolean"}
+    },
+    "required": [
+        "fileName",
+        "isApplyToAllCourse",
+        "applyToCourses",
+        "isApplyToAllAdmitType",
+        "applyToAdmitTypes",
+        "isEnrolleeRequiredToUpload",
+        "isDocumentEnabled"
+    ],
+    "additionalProperties": false
+}

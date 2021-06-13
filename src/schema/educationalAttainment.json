@@ -1,0 +1,45 @@
+{
+    "type": "object",
+    "properties": {
+      "educationalAttainment": {
+        "type": "object",
+        "properties": {
+            "elementary": {
+                "$ref": "#/definitions/education"
+            },
+            "highSchool": {
+                "$ref": "#/definitions/education"
+            },
+            "seniorHighSchool": {
+                "$ref": "#/definitions/education"
+            }
+        },
+        "required": [
+            "elementary",
+            "highSchool",
+            "seniorHighSchool"
+        ]
+      }
+    },
+    "required": [
+      "educationalAttainment"
+    ],
+    "additionalProperties": false,
+    "definitions": {
+        "education": {
+            "type": "object",
+            "properties": {
+                "schoolName": {"type": "string"},
+                "schoolAddress": {"type": "string"},
+                "typeOfSchool": {"type": "string"},
+                "yearGraduated": {"type": "string"}
+            },
+            "required": [
+                "schoolName",
+                "schoolAddress",
+                "typeOfSchool",
+                "yearGraduated"
+            ]
+        }
+    }
+  }

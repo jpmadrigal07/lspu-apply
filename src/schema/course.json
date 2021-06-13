@@ -1,0 +1,12 @@
+{
+    "type": "object",
+    "properties": {
+        "courseName": {"type": "string"},
+        "courseCode": {"types": "string"}
+    },
+    "required": [
+        "courseName",
+        "courseCode"
+    ],
+    "additionalProperties": false
+}

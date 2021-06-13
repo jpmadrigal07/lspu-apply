@@ -1,0 +1,12 @@
+{
+    "type": "object",
+    "properties": {
+        "collegeName": {"type": "string"},
+        "collegeCode": {"type": "string"}
+    },
+    "required": [
+        "collegeName",
+        "collegeCode"
+    ],
+    "additionalProperties": false
+}

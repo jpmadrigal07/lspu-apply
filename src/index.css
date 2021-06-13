@@ -1,0 +1,34 @@
+body,
+html {
+   font-family: 'Poppins' !important;
+}
+
+p {
+   margin-top: 0px !important;
+}
+
+.navbar-brand {
+   padding: 18px 20px;
+   display: inline-block;
+}
+
+.content {
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-left: 10px !important;
+   padding-right: 10px !important;
+}
+
+.basic-container {
+   background-color: #ffffff;
+   padding: 20px;
+   border-radius: 5px;
+}
+
+.student-name {
+   color: #2a8c0f !important;
+}
+
+.step-title {
+   color: #d9a404 !important;
+}

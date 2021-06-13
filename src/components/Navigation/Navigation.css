@@ -1,0 +1,34 @@
+
+.black-navbar {
+   background-color: #0D0D0D !important;
+}
+
+.main-logo {
+   margin-left: 10px;
+}
+
+.main-logo-text {
+   color: #ffffff;
+}
+
+#root > div > div.rs-navbar-header > a{
+   color: #ffffff !important;
+}
+
+.rs-navbar.rs-navbar-default .rs-nav-item > .rs-nav-item-content,
+.rs-navbar.rs-navbar-default .rs-dropdown .rs-dropdown-toggle {
+   color: #ffffff !important;
+}
+
+.rs-navbar.rs-navbar-default .rs-dropdown .rs-dropdown-menu-active ~ .rs-dropdown-toggle {
+   background-color: #2A8C0F !important;
+}
+
+.rs-navbar.rs-navbar-default .rs-nav-item > .rs-nav-item-content:hover,
+.rs-btn-subtle:hover, .rs-btn-subtle:active, .rs-btn-subtle:focus, .rs-btn-subtle:active:hover {
+   background-color: #D9A404 !important;
+}
+
+.rs-navbar.rs-navbar-default .rs-nav-item-active > .rs-nav-item-content {
+   background-color: #2A8C0F !important;
+}

@@ -1,0 +1,28 @@
+{
+    "type": "object",
+    "properties": {
+        "campusName": {"type": "string"},
+        "mainCampusId": {"type": "string"},
+        "schoolName": {"type": "string"},
+        "email": {"type": "string"},
+        "mobileNo": {"type": "string"},
+        "currency": {"type": "string"},
+        "currencySymbol": {"type": "string"},
+        "city": {"type": "string"},
+        "state": {"type": "string"},
+        "address": {"type": "string"}
+    },
+    "required": [
+        "campusName",
+        "mainCampusId",
+        "schoolName",
+        "email",
+        "mobileNo",
+        "currency",
+        "currencySymbol",
+        "city",
+        "state",
+        "address"
+    ],
+    "additionalProperties": false
+}

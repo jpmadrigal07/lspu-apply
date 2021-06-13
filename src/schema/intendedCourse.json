@@ -1,0 +1,20 @@
+{
+    "type": "object",
+    "properties": {
+      "intendedCourse": {
+        "type": "object",
+        "properties": {
+            "firstChoice": {"type": "string"},
+            "secondChoice": {"type": "string"}
+        },
+        "required": [
+            "firstChoice",
+            "secondChoice"
+        ]
+      }
+    },
+    "required": [
+      "intendedCourse"
+    ],
+    "additionalProperties": false
+}
